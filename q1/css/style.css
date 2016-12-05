@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.crearfix:before,
+.crearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.contents {
+  background: #eff3f4;
+  padding: 20px;
+  width: 900px;
+}
+
+.contents_inner {
+  background: #3274ae;
+  float: left;
+  padding: 20px;
+  width: 230px;
+}
+
+.contents_inner:nth-child(n+2) {
+  margin-left: 20px;
+}
+
+.contents_inner_box {
+  background: #eaf4ff;
+  border: solid 10px #022336;
+  padding: 20px;
+  width: 170px;
+}
+
+
+/* 回答はここに書いてね */

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.contents {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,
+td {
+  border: solid #dedede 1px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+
+
+td:nth-child(n+2) {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+th {
+  background: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+tr:nth-child(odd) {
+  background: #ecf1f2;
+}
+
+td:first-child {
+  background: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+/* 回答はここに書いてね */

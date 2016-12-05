@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.table_box {
+  box-sizing: border-box; /*border込でwidth表示*/
+  display: table;
+  padding: 20px;
+  width: 100%;
+}
+
+.table-cells {
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
+}
+
+.table_static01 {
+  width: 100px;
+}
+
+.static_left {
+  background: #fdc8b8;
+}
+
+.table_flex01 {
+  background: #e0abd9;
+}
+
+.static_right {
+  background: #b6d8ed;
+}
+
+.flex_left {
+  background: #e5d32e;
+}
+
+.flex_right {
+  background: #e4e67c;
+}
+
+.table_static02 {
+  background: #8fdcad;
+  width: 500px;
+}
+/* 回答はここに書いてね */

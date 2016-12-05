@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.contents_box::before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: -13px;
+  left: 37px;
+  transform: rotate(45deg);
+  width: 26px;
+  height: 26px;
+}
+
+.contents_box {
+  border: solid 5px #222;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  width: 500px;
+}
+
+.contents_box::after {
+  content: "";
+  border-bottom: solid 5px #222;
+  border-right: solid 5px #222;
+  position: absolute;
+  bottom: -19px;
+  left: 35px;
+  transform: rotate(45deg);
+  width: 25px;
+  height: 25px;
+}
+/* 回答はここに書いてね */

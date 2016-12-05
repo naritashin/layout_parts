@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1 class="title">基本レイアウト・パーツ</h1>
+
+    <div class="box">
+        <h2 class="headline">
+            <p class="headline__txt">Q10. フォーム</p>
+        </h2>
+
+        <!--
+        Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
+        Q7で出てきた、inputやtextarea要素を使えばフォームをつくることができます。
+        この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
+        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
+        answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。
+        また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
+
+        また、この問題はレイアウトが複雑なため、サイズや色の確認のためにデベロッパーツールを見ても構いません。
+        ただ全ての答えを見るといったことはしないようにしましょう。
+
+        ■この問題で使う大事なhtml要素
+        ・form
+        ・input(type="submit")
+        -->
+        <!-- 回答はここに書いてね -->
+  <form class="contents_base">
+    <div class="header">
+      <p class="title_txt">
+        Form Exercise
+      </p>
+    </div>
+    <div class="clearfix">
+      <div class="main_box">
+        <ul class="main_contents">
+          <li class="clearfix">
+            <p class="name_contents main_title">name
+              <span class="asterisk">*</span>
+            </p>
+            <div class="input_items">
+              <input type="text" name="form_name" class="name_intxt input_txt" required>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="main_title">Sex</p>
+            <div class="sex_radio_box input_items">
+              <label>
+                <input type="radio" name="sex" value="male" class="sex_radio_btn"><span class="sex_radio_txt">male</span></label>
+              <label>
+                <input type="radio" name="sex" value="female" class="sex_radio_btn"><span class="sex_radio_txt">female</span></label>
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="main_title">Email
+              <span class="asterisk">*</span>
+            </p>
+            <div class="input_items">
+              <input type="text" name="mail" class="input_txt" required placeholder="ex) hoge@gmail.com">
+            </div>
+          </li>
+          <li class="clearfix">
+            <p class="main_title">Telephone</p>
+            <div class="input_items">
+              <input type="text" name="tel" class="input_txt" placeholder="ex) 08012345678">
+            </div>
+          </li>
+        </ul>
+        <div class="submit_btn">
+          <input type="submit" name="submit" value="submit" class="submit_inbtn">
+        </div>
+      </div>
+      <div class="sub_contents">
+        <textarea name="sub_text" class="sub_txt" placeholder="Please fill in the message..."></textarea>
+      </div>
+    </div>
+  </form>
+        <!-- 回答はここに書いてね -->
+    </div>
+</div>
+
+</body>
+</html>

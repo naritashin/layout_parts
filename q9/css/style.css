@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.contents {
+  background: #ecf1f2;
+  padding: 10px;
+}
+
+.contents_base {
+font-size: 0;
+}
+
+.contents_cell {
+  box-sizing: border-box;
+  display: inline-block;
+  border: solid 10px #ecf1f2;
+}
+
+.numbers {
+  background: #fff;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.num12 {
+  width: 100%;
+}
+
+.num06 {
+  width: 50%;
+}
+
+.num04 {
+  width: 33.33%;
+}
+
+.num03 {
+  width: 25%;
+}
+
+.num024 {
+  width: 20%;
+}
+
+.num02 {
+  width: 16.66%;
+}
+
+/* 回答はここに書いてね */

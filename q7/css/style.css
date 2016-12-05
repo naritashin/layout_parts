@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.contents_box {
+  text-align: center;
+}
+
+.input_box {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.txt_box {
+  background: none;
+  border: none;
+  font-size:  16px;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input_txt {
+  border: solid 1px #00bcd4;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input_txt::-webkit-input-placeholder {
+  color: #00bcd4;
+}
+
+.input_txt:focus {
+  box-shadow: 0 0 7px #00bcd4;
+}
+
+.input_textarea {
+  border: solid 1px #00bcd4;
+  border-radius: 5px;
+  height: 40px;
+  padding: 5px;
+  resize: none;
+}
+
+.radio,
+.checkbox {
+  cursor: pointer;
+}
+
+.input_radio,
+.input_checkbox {
+  display: none;
+}
+
+.radio_txt {
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+
+.radio_txt::before {
+  background: #fff;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+.input_radio:checked + .radio_txt::after {
+  background: #00bcd4;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 4px;
+  margin-top: 8px;
+  width: 8px;
+  height: 8px;
+}
+
+.checkbox_txt {
+  padding: 3px 3px 3px 22px;
+  position: relative;
+}
+
+.checkbox_txt::before {
+  background: #fff;
+  border: solid 1px #ccc;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+.input_checkbox:checked + .checkbox_txt::after {
+  border-bottom: solid 2px #00bcd4;
+  border-left: solid 2px #00bcd4;
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.select_box {
+  position: relative;
+}
+
+.input_select {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 30px 5px 5px;
+  position: relative;
+}
+
+.select_box::before {
+  border-bottom: solid 2px #ccc;
+  border-left: solid 2px #ccc;
+  content: "";
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+}
+
+.input_btn {
+  border: solid 1px #00bcd4;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #00bcd4;
+  padding: 5px 10px;
+}
+
+.input_btn:active {
+  background: #00bcd4;
+  color: #fff;
+}
+/* 回答はここに書いてね */

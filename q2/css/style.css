@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.contents {
+  background: #eff3f4;
+  padding: 20px;
+  width: 860px;
+}
+
+.contents p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.imgs {
+width: 150px;
+}
+
+.img1 {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+
+.img2 {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+/* 回答はここに書いてね */

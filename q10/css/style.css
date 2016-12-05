@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.clearfix::before,
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contents_base {
+  background: #ecf1f2;
+  padding: 20px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.main_contents {
+  padding-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.header::before {
+  background: #ccc;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.title_txt {
+  background: #ecf1f2;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main_box {
+  float: left;
+  width: 300px;
+}
+
+.main_title {
+  float: left;
+  text-align: right;
+  line-height: 25px;
+  width: 100px;
+}
+
+.input_items {
+  float: right;
+  width: 180px;
+}
+
+.input_txt {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.asterisk {
+  color: #f00;
+}
+
+.sex_radio_box {
+  cursor: pointer;
+}
+
+.sex_radio_btn {
+  display: none;
+}
+
+.sex_radio_txt {
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+
+.sex_radio_txt::before {
+  background: #fff;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 3px;
+  width: 14px;
+  height: 14px;
+}
+
+.sex_radio_btn:checked + .sex_radio_txt::after {
+  background: #00bcd4;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 4px;
+  margin-top: 7px;
+  width: 8px;
+  height: 8px;
+}
+
+.submit_inbtn {
+  background: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 10px;
+
+}
+
+.sub_contents {
+  float: right;
+  width: 380px;
+}
+
+.sub_txt {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  resize: none;
+}
+/* 回答はここに書いてね */
